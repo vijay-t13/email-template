@@ -5,102 +5,148 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Intangles</title>
-    <link rel="stylesheet" href="styles.css" />
+    <!-- <link rel="stylesheet" href="styles.css" /> -->
+    <style media="screen" type="text/css">
+      * {
+        margin: 0px;
+        padding: 0px;
+      }
+
+      .main {
+        display: flex;
+        flex-direction: column;
+      }
+      .header {
+        display: flex;
+        flex-direction: row;
+      }
+      .header-left {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+      .header-left > *{
+        flex-grow: 1;
+      }
+      .header-right {
+        display: flex;
+        flex-direction: column;
+      }
+      .social-media-icon {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+      }
+
+      .img-logo {
+        width: 250px;
+        height: 230px;
+      }
+      .img-linkedin,
+      .img-fb,
+      .img-twitter,
+      .img-youtube {
+        height: 75px;
+        flex-grow: 1;
+      }
+      .img-title {
+        width: 240px;
+        height: 120px;
+      }
+      .img-phone,
+      .img-email {
+        width: 240px;
+        height: 50px;
+      }
+      .img-address {
+        width: 240px;
+        height: 76px;
+      }
+      .img-footer {
+        width: 490px;
+      }
+    </style>
   </head>
   <body>
-    <main class="main">
-      <section class="flex-container sectionOne">
-        <section class="logo-section">
-          <!-- intangles logo -->
-          <div>
-            <img class="logo" src="./images/Logo BG and Award-01.png" alt="" />
-          </div>
-          <!-- social sites -->
-          <div class="social-icons-container">
-            <a href="">
+    <div class="main">
+      <div class="header">
+        <div class="header-left">
+          <img
+            class="img-logo"
+            src="./Email Signture Final Images/Email Signture Final Images-02.jpg"
+            alt=""
+          />
+          <div class="social-media-icon">
+            <a
+              href="https://in.linkedin.com/in/anup-patil-4618192"
+              target="_blank"
+            >
               <img
-                class="social-icon linkedinLogo"
-                src="./images/linkedin.png"
+                class="img-linkedin"
+                src="./Email Signture Final Images/Email Signture Final Images-03.jpg"
                 alt=""
               />
             </a>
 
             <a href="">
               <img
-                class="social-icon facebookLogo"
-                src="./images/facebook.png"
+                class="img-fb"
+                src="./Email Signture Final Images/Email Signture Final Images-04.jpg"
                 alt=""
               />
             </a>
-
             <a href="">
               <img
-                class="social-icon twitterLogo"
-                src="./images/twitter.png"
+                class="img-twitter"
+                src="./Email Signture Final Images/Email Signture Final Images-05.jpg"
                 alt=""
               />
             </a>
-
             <a href="">
               <img
-                class="social-icon youtubeLogo"
-                src="./images/youtube.png"
+                class="img-youtube"
+                src="./Email Signture Final Images/Email Signture Final Images-06.jpg"
                 alt=""
               />
             </a>
-          </div>
-        </section>
-        <section class="details-section">
-          <h2 class="name">Anup Patil</h2>
-          <h2 class="title">CEO & Co-Founder</h2>
-          <div class="details-section-content">
-            <div class="contact-details">
-              <img
-                class="social-icon"
-                src="./images/phone.png"
-                alt="phone number"
-              />
-              <div class="text-details">+91 9545521225</div>
-            </div>
-            <div class="contact-details">
-              <img class="social-icon" src="./images/email.png" alt="email" />
-              <div class="text-details">anup@intangles.com</div>
-            </div>
-            <div class="contact-details address">
-              <img
-                class="social-icon"
-                src="./images/location.png"
-                alt="address"
-              />
-              <div class="text-details address-details">
-                <p>A, 302, Niyati Tech Park,</p>
-                <p>Wadgaon Sheri, Pune,</p>
-                <p>Maharashtra 411014</p>
-              </div>
-            </div>
-          </div>
-        </section>
-      </section>
-      <section class="footer-section">
-        <div class="footer">
-          <div class="award-title">
-            <h3>Leadership</h3>
-            <h3>Excellence</h3>
-            <h3>Award</h3>
-            <h3>2022</h3>
-          </div>
-          <!-- <img class="award-image" src="./images/Logo BG and Award-03.png" alt=""> -->
-          <div class="footer-text">
-            <h2 class="startup-icon">Emerging</h2>
-            <h2>Startup Icon</h2>
           </div>
         </div>
+        <div class="header-right">
+          <img
+            class="img-title"
+            src="./Email Signture Final Images/Email Signture Final Images-07.jpg"
+            alt=""
+          />
+          <a href="tel:+919545521225">
+            <img
+              class="img-phone"
+              src="./Email Signture Final Images/Email Signture Final Images-08.jpg"
+              alt=""
+            />
+          </a>
+          <a href="mailto:anup@intangles.com">
+            <img
+              class="img-email"
+              src="./Email Signture Final Images/Email Signture Final Images-09.jpg"
+              alt=""
+            />
+          </a>
+          <a href="https://goo.gl/maps/rrdd7LeSJyhF7tsKA" target="_blank">
+            <img
+              class="img-address"
+              src="./Email Signture Final Images/Email Signture Final Images-10.jpg"
+              alt=""
+            />
+          </a>
+        </div>
+      </div>
+      <div class="footer">
         <img
-          class="footer-banner"
-          src="./images/Logo BG and Award_3.png"
+          class="img-footer"
+          src="./Email Signture Final Images/Email Signture Final Images-11.jpg"
           alt=""
         />
-      </section>
-    </main>
+      </div>
+    </div>
   </body>
 </html>
