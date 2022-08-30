@@ -12,83 +12,100 @@
         padding: 0px;
       }
 
-      .main {
-        max-width:370px ;
+      /* .main {
+        max-width: 370px;
         display: flex;
         flex-direction: column;
-      }
-      .header {
+      } */
+      /* .header {
         display: flex;
         flex-direction: row;
-      }
-      .header-left {
+      } */
+      /* .header-left {
         display: flex;
         flex-direction: column;
         justify-content: center;
-      }
-      .header-left > *{
+      } */
+      .header-left > * {
         flex-grow: 1;
       }
-      .header-right {
+      /* .header-right {
         display: flex;
         flex-direction: column;
-      }
-      .social-media-icon {
+      } */
+      /* .social-media-icon {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-      }
+      } */
 
-      .img-logo {
+      /* .img-logo {
         width: 180px;
         height: 40px;
-      }
-      .img-fb , .img-twitter{
+      } */
+      /* .img-fb,
+      .img-twitter {
         width: 43px;
         flex-grow: 1;
-      }
-      .img-linkedin,
+      } */
+      /* .img-linkedin,
       .img-fb,
       .img-twitter,
       .img-youtube {
         height: 50px;
-        /* flex-grow: 1; */
-      }
-      .img-title {
+        flex-grow: 1;
+      } */
+      /* .img-title {
         width: 50px;
         height: 60px;
-      }
-      .img-phone,
+      } */
+      /* .img-phone,
       .img-email {
         width: 190px;
         height: 30px;
-      }
-      .img-address {
+      } */
+      /* .img-address {
         width: 190px;
         height: 50px;
-      }
-      .img-footer {
+      } */
+      /* .img-footer {
         width: 370px;
         height: 60px;
-      }
+      } */
     </style>
   </head>
   <body>
-    <div class="main">
-      <div class="header">
-        <div class="header-left">
+    <div
+      class="main"
+      style="max-width: 370px; display: flex; flex-direction: column"
+    >
+      <div class="header" style="display: flex; flex-direction: row">
+        <div
+          class="header-left"
+          style="display: flex; flex-direction: column; justify-content: center"
+        >
           <img
             class="img-logo"
             src="./Email Signture Final Images/Email Signture Final Images-02.jpg"
+            style="width: 180px; height: 40px ; flex-grow: 1;"
             alt=""
           />
-          <div class="social-media-icon">
+          <div
+            class="social-media-icon"
+            style="
+              display: flex;
+              flex-direction: row;
+              justify-content: space-between;
+              flex-grow: 1;
+            "
+          >
             <a
               href="https://in.linkedin.com/in/anup-patil-4618192"
               target="_blank"
             >
               <img
                 class="img-linkedin"
+                style="height: 50px; "
                 src="./Email Signture Final Images/Email Signture Final Images-03.jpg"
                 alt=""
               />
@@ -96,6 +113,7 @@
 
             <a href="">
               <img
+                style="width: 43px; flex-grow: 1; height: 50px; "
                 class="img-fb"
                 src="./Email Signture Final Images/Email Signture Final Images-04.jpg"
                 alt=""
@@ -103,6 +121,7 @@
             </a>
             <a href="">
               <img
+                style="width: 43px; flex-grow: 1; height: 50px"
                 class="img-twitter"
                 src="./Email Signture Final Images/Email Signture Final Images-05.jpg"
                 alt=""
@@ -110,6 +129,7 @@
             </a>
             <a href="">
               <img
+                style="height: 50px"
                 class="img-youtube"
                 src="./Email Signture Final Images/Email Signture Final Images-06.jpg"
                 alt=""
@@ -117,15 +137,17 @@
             </a>
           </div>
         </div>
-        <div class="header-right">
+        <div class="header-right" style="display: flex; flex-direction: column">
           <img
+            style="width: 50px; height: 60px"
             class="img-title"
             src="./Email Signture Final Images/Email Signture Final Images-07.jpg"
             alt=""
           />
-          <!-- <a href="tel:+919545521225">
+          <a href="tel:+919545521225">
             <img
               class="img-phone"
+              style="width: 190px; height: 30px"
               src="./Email Signture Final Images/Email Signture Final Images-08.jpg"
               alt=""
             />
@@ -133,6 +155,7 @@
           <a href="mailto:anup@intangles.com">
             <img
               class="img-email"
+              style="width: 190px; height: 30px"
               src="./Email Signture Final Images/Email Signture Final Images-09.jpg"
               alt=""
             />
@@ -140,15 +163,17 @@
           <a href="https://goo.gl/maps/rrdd7LeSJyhF7tsKA" target="_blank">
             <img
               class="img-address"
+              style="width: 190px; height: 50px"
               src="./Email Signture Final Images/Email Signture Final Images-10.jpg"
               alt=""
             />
-          </a> -->
+          </a>
         </div>
       </div>
       <div class="footer">
         <img
           class="img-footer"
+          style="width: 370px; height: 60px"
           src="./Email Signture Final Images/Email Signture Final Images-11.jpg"
           alt=""
         />
