@@ -1,0 +1,135 @@
+@font-face {
+    font-family: montserrat;
+    src: url("./assets/Montserrat-Medium.ttf");
+}
+@font-face {
+    font-family: ge-inspira;
+    src: url("./assets/ge-inspira.ttf");
+}
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+:root{
+    --bgColor : #fff,
+    --primaryColor: #5fb4c4;
+    font-size: 16px;
+    font-family: ge-inspira;
+}
+
+.main{
+    height: 320px;
+    width: 425px;
+
+}
+
+.sectionOne{
+    height: 250px;
+    padding: 25px 10px 10px 10px;
+    display: flex;
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.logo{
+    width: 150px;
+    height: 150px;
+}
+.logo-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.social-icon{
+    width: 30px;
+}
+.social-icons-container{
+    display: flex;
+    gap: 0.2rem;
+}
+
+/* details section styling */
+.details-section{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.name{
+    font-size: 2.7rem;
+    color: #5fb4c4;
+}
+.title{
+    font-weight: 400;
+}
+.contact-details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+.details-section-content{
+    flex-direction: column;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 1rem;
+}
+.contact-details.address{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.address-details{
+    font-size: 0.9rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-banner{
+    width: 425px;
+    height: 75px;
+}
+
+.footer-section{
+    position: relative;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+.award-image{
+    position: absolute;
+}
+.award-title{
+    padding-top:10px ;
+    color: white;
+    position: absolute;
+    font-family: montserrat;
+    font-size: 0.7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    right: 65%;
+    transform: scale(0.7);
+}
+.footer-text{
+    padding-top: 10px;
+    position: absolute;
+    left: 50%;
+    color: white;
+    font-family: montserrat;
+}
+.startup-icon{
+    font-size: 1.5rem;
+}
